@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import datetime
 import pickle
-import xgboost as xgb
+import lightgbm as lgb
 import streamlit as st
 
 from sklearn.preprocessing import StandardScaler
