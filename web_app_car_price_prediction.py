@@ -4,6 +4,7 @@ import datetime
 import pickle
 import lightgbm as lgb
 import streamlit as st
+import sklearn
 
 def main():
     html_temp="""
