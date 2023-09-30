@@ -18,7 +18,7 @@ def main():
         
     model = pickle.load(open("model.pkl", "rb"))
         
-    with open('encoding_mapping.txt', 'rb') as file:
+    with open('encoding_mapping.txt', encoding = 'raw_unicode_escape') as file:
         lines = file.readlines()
 
     encoding_mapping_list = []
