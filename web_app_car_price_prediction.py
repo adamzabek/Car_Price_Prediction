@@ -5,8 +5,6 @@ import pickle
 import lightgbm as lgb
 import streamlit as st
 
-from sklearn.preprocessing import StandardScaler
-
 def main():
     html_temp="""
     <div style = "background-color: Lightblue;padding:16px">
