@@ -80,11 +80,13 @@ def main():
     
     p9 = st.number_input("What is the millage (in thousend km)?", step = 1)
     
-    date_time = datetime.datetime.now()
+    #date_time = datetime.datetime.now()
+    
+    date_time = 2023
     
     year = st.number_input("What is the year of production of the car?", step = 1)
     
-    p10 = date_time.year - year
+    p10 = date_time - year
     
     data_new = pd.DataFrame({
         'Norm Engine capacity': p7,
