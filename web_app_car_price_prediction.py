@@ -4,8 +4,7 @@ import datetime
 import pickle
 import xgboost as xgb
 import streamlit as st
-from mpmath import mp
-mp.dps = 50
+
 from sklearn.preprocessing import StandardScaler
 
 def main():
